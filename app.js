@@ -6,8 +6,8 @@ button.onclick = function () {
   getAnagramsOf(typedText)
 }
 
-function alphabetize(a) {
-  return a.toLowerCase().split("").sort().join("").trim()
+function alphabetize(input) {
+  return input.toLowerCase().split("").sort().join("").trim()
 }
 
 function getAnagramsOf(input) {
